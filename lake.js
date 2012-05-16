@@ -114,7 +114,7 @@
             }
             c.restore();
             if (!settings.image) {
-                c.height = c.height/2;
+                ca.height = ca.height/2;
             }
         };
 
@@ -126,7 +126,6 @@
                 } else {
                     c.putImageData(frames[frame], 0, h/2);
                 }
-                c.putImageData(frames[frame], 0, h/2);
                 if (frame < max_frames) {
                     frame++;
                 } else {
